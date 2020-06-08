@@ -81,7 +81,7 @@ jobs:
       ARCH: arm64
       TARGET_TYPE: robot-l4t
       TARGET_VERSION: feature
-      IMAGE_NAME: sonia_msgs
+      IMAGE_NAME: sonia_msgs_test1234
       GITHUB_REMOTE_URL: docker.pkg.github.com/${{ github.repository }}
     steps:
       - uses: actions/checkout@v2
@@ -182,7 +182,7 @@ jobs:
       ARCH: arm64
       TARGET_TYPE: perception-l4t
       TARGET_VERSION: feature
-      IMAGE_NAME: sonia_msgs
+      IMAGE_NAME: sonia_msgs_test1234
       GITHUB_REMOTE_URL: docker.pkg.github.com/${{ github.repository }}
     steps:
       - uses: actions/checkout@v2
